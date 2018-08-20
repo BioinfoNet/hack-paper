@@ -5,13 +5,13 @@
 This repository contains the manuscript entitled:
 [**Open Science in Kenya: Where are we?**](https://github.com/bioinfonet/hack-paper/blob/master/document/manuscript.md). Our aim is to review the intake of open science practices by Kenya Researcher. NB: May expand to EA, if time allows.
 
+This is an output of OpenScienceKE hackathon held on ...
 
 ## Commenting and contributing 
 
 We hope to finalise the manuscript and re-submit soon and won't accept
 any new pull requests. Feel free to open an issue if there is any
 point you would like to raise or discuss.
-
 
 
 ## Conversion to LaTeX
