@@ -8,23 +8,23 @@ manuscript.tex: manuscript.md
 	pandoc manuscript.md -o manuscript.tex
 	perl -pi -e 's/^/%% / if /\\includegraphics\{.\/figure01.pdf\}/' manuscript.tex
 
-manuscript-biorxiv.pdf: manuscript-biorviv.tex manuscript.tex
-	latex manuscript-biorviv
-	bibtex manuscript-biorviv
-	latex manuscript-biorviv
-	latex manuscript-biorviv
-	dvipdf manuscript-biorviv
+manuscript-biorxiv.pdf: manuscript-biorxiv.tex manuscript.tex
+	latex manuscript-biorxiv
+	bibtex manuscript-biorxiv
+	latex manuscript-biorxiv
+	latex manuscript-biorxiv
+	dvipdf manuscript-biorxiv
 
 Supplementary-File.pdf: Supplementary-File.md
 	 Rscript -e "rmarkdown::render('Supplementary-File.md', output_format = 'pdf_document')"
 
 clean:
 	rm -f *~
-	rm -f manuscript-biorviv.aux
-	rm -f manuscript-biorviv.bbl
-	rm -f manuscript-biorviv.blg
-	rm -f manuscript-biorviv.dvi
-	rm -f manuscript-biorviv.log
-	rm -f manuscript-biorviv.out
-	rm -f manuscript-biorviv.tex.pdf
+	rm -f manuscript-biorxiv.aux
+	rm -f manuscript-biorxiv.bbl
+	rm -f manuscript-biorxiv.blg
+	rm -f manuscript-biorxiv.dvi
+	rm -f manuscript-biorxiv.log
+	rm -f manuscript-biorxiv.out
+	rm -f manuscript-biorxiv.tex.pdf
 
