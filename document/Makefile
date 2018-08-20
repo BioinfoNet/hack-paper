@@ -27,4 +27,5 @@ clean:
 	rm -f manuscript-biorxiv.log
 	rm -f manuscript-biorxiv.out
 	rm -f manuscript-biorxiv.tex.pdf
+	rm -f manuscript.tex
 

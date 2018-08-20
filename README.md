@@ -1,4 +1,4 @@
-# Open Science in Kenya: Where are we? [![Build Status](https://travis-ci.org/BioinfoNet/hack-paper.svg?branch=master)](https://travis-ci.org/BioinfoNet/hack-paper)
+# Open Science in Kenya: Where are we? [![Build Status](https://travis-ci.org/bioinfonet/hack-paper.svg?branch=master)](https://travis-ci.org/bioinfonet/hack-paper)
 
 ## Description 
 
@@ -26,7 +26,7 @@ point you would like to raise or discuss.
 Then, type
 
 ```
-make manuscript-biorviv.tex
+make manuscript-biorxiv.tex
 ```
 
 - Only commit `manuscript-biorxiv.pdf`. Temporary files will be ignored

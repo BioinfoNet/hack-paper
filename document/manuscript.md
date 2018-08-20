@@ -13,6 +13,9 @@ You can add the figures as follows:
 # Figures {-}
 ![Figure 1](./figure01.pdf)
 
+And you can have it referenced as figure
+
+
 > **Box 1** To highlight of define some key cencept in Open science without 
 > disrupting the flow of the articles, you can use a quote format. 
 
