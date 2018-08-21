@@ -15,7 +15,6 @@ upload_files() {
   git remote add origin https://${GIT_TOKEN}@github.com/MVSE-outreach/resources.git > /dev/null 2>&1
   git push --quiet --set-upstream origin master
 }
-
 setup_git
 commit_paper_files
 upload_files
