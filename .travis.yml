@@ -13,6 +13,7 @@ language: bash
 env:
   global:
     - PATH=$TRAVIS_BUILD_DIR/usr/bin/:$PATH
+    - github-token: $GIT_TOKEN
 
 before_install:
   # Fetch pandoc and pandoc-citeproc binaries
