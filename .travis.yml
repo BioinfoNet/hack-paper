@@ -1,36 +1,16 @@
-# Link repository with Travis CI
-# https://travis-ci.org/
-
-# Whitelist gh-pages branch
-# branches:
-#   only:
-#     - integratetravis
-
-# Set the language
 language: bash
-
-# Set the environment path to include Pandoc binaries
 env:
   global:
-    - PATH=$TRAVIS_BUILD_DIR/usr/bin/:$PATH
-    - github-token: $GIT_TOKEN
-
+  - PATH=$TRAVIS_BUILD_DIR/usr/bin/:$PATH
+  - github-token: "$GIT_TOKEN"
+  - secure: mss3Beb1yjHURyMP6RKJONOusLZDZXEX9onQbV38rlDoq2kcUMX236I1u9KWCPen8SIksciuNexteJHWc7Lcn9hIr6ZPNW8TBKyZIo7YyJC7Ck+q5sPAatZIOVrI8SFQLO62D0L9AThFrtTziu0yBtkygRCWCl0X1VwcBfWWrVzhZfoFsDIXOZpIRI0uZ9/+QuMImcJ4FsYGdQvULyp9c06eHDRVh0jgU95u0GqDousXdpWQeblm8qxXwRZM/v0yyHbGG2mTRKOrqfZXJFN4mobWtPq7IrnbWMxkrZajaiiJ+2Zh98IsTC3BlRxWhaTAJgHXnpGydT1inSfUh/RB+78ljjxk2nME8jO/xrpQ8OWERozxAnEc56F1VWK7VfxEASpVPN2JTDYr3PeNoK/Bx6D7XNiK3SzQzIr3W8OyVsQhCafROQpepODLedq0HJqUbTXVXiWmECs8SjcuUsM1Yxp8jk0nu+x+Wh7QG8x3MvPrZpy6ZDgl8xjZg6jD84K7SzVmD8kd0SxRT02CSMCyKvrev/V7d6kxGRJrqMWA8ZMdRus/1dc9vlfH3AE4p42wAWPYnMWQwMKbL2OcY2CFGu8mfzqH8dfpecmk4hhhKdvuJ2ujoHOa2OV6WVxfRG3LtgXQzQ6GSvqwzan5vskQcwOGKwdmNrj3bqN+j/T9uTM=
 before_install:
-  # Fetch pandoc and pandoc-citeproc binaries
-  - wget https://github.com/jgm/pandoc/releases/download/1.15.0.5/pandoc-1.15.0.5-1-amd64.deb && ar p pandoc-1.15.0.5-1-amd64.deb data.tar.gz | tar zx
-  # Install TeX Live
-  #- sudo add-apt-repository ppa:texlive-backports/ppa
-  #- sudo apt-get update
-  - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
-  - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
-  - sudo apt-get install texlive-science texlive-humanities
-  # Install fonts
-  # - sudo apt-get install lmodern
-
-# Attempt to create final pdf
+- wget https://github.com/jgm/pandoc/releases/download/1.15.0.5/pandoc-1.15.0.5-1-amd64.deb
+  && ar p pandoc-1.15.0.5-1-amd64.deb data.tar.gz | tar zx
+- sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
+- sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
+- sudo apt-get install texlive-science texlive-humanities
 script:
-  - cd document && make manuscript-biorxiv.pdf
-
+- cd document && make manuscript-biorxiv.pdf
 after_success:
-  - bash push.sh
-    
+- bash push.sh
