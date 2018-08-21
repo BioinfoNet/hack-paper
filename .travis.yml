@@ -31,5 +31,5 @@ script:
   - cd document && make manuscript-biorxiv.pdf
 
 after_success:
-  - ./push.sh
+  - bash push.sh
     
