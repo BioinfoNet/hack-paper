@@ -30,3 +30,5 @@ before_install:
 script:
   - cd document && make manuscript-biorxiv.pdf
 
+after_success:
+  - .travis/push.sh
