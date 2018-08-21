@@ -6,8 +6,8 @@ setup_git() {
 }
 
 commit_paper_files() {
-  git add ./documents/*.pdf
-  git add ./documents/*.tex
+  git add *.pdf
+  git add *.tex
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
 }
 
