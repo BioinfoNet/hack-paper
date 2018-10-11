@@ -35,6 +35,9 @@ make manuscript-biorxiv.tex
 make clean
 ```
 
+### Generating pdf papaper
+we are using Travis CI to generate the LaTex and PDF of the paper and push it automatically on pull request. Create a branch from the master and send a pull request when done with your edits. We will only approve the pull-request on successful Build. 
+
 ## Attribution
 
 This paper template is insipred by: https://github.com/ypriverol/github-paper. 
