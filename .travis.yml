@@ -3,13 +3,13 @@ env:
   global:
   - PATH=$TRAVIS_BUILD_DIR/usr/bin/:$PATH
   github-token: $GITHUB_TOKEN
-  before_install:
-- wget https://github.com/jgm/pandoc/releases/download/1.15.0.5/pandoc-1.15.0.5-1-amd64.deb
+before_install:
+  - wget https://github.com/jgm/pandoc/releases/download/1.15.0.5/pandoc-1.15.0.5-1-amd64.deb
   && ar p pandoc-1.15.0.5-1-amd64.deb data.tar.gz | tar zx
-- sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
-- sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
-- sudo apt-get install texlive-science texlive-humanities
+  - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
+  - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
+  - sudo apt-get install texlive-science texlive-humanities
 script:
-- cd document && make manuscript-biorxiv.pdf
+  - cd document && make manuscript-biorxiv.pdf
 after_success:
-- bash push.sh
+  - bash push.sh
