@@ -32,8 +32,6 @@ This remains the main barrier to publishing open access, in addition to the obse
 
 To address this problem, we created a resource that can guide ECR and students on where they publish open access, and at low cost. We also provide information on how they can still be open, eg via the green route. 
 
-
-
 # Figures {-}
 
 You can add the figures as follows: 
@@ -41,7 +39,6 @@ You can add the figures as follows:
 ![Figure 1](./figure01.pdf)
 
 And you can have it referenced as a figure
-
 
 > **Box 1** To highlight of defining some key concepts in Open science without 
 > disrupting the flow of the articles, you can use a quote format. 
@@ -52,7 +49,7 @@ What do the results mean? How does your results fit to the current literature? H
 
 
 # Conclusions {-}
-What is the take-home message from this article?
+What is the take-home message from this article? What are the recommendations? 
 
 # Acknowledgement
 
