@@ -13,8 +13,7 @@ commit_paper_files() {
 }
 
 upload_files() {
-  git remote add origin https://kipkurui:${github-token}@github.com/BioinfoNet/hack-paper.git > /dev/null 2>&1
-  git push --quiet --set-upstream origin master
+  git push https://kipkurui:${GITHUB_TOKEN}@github.com/BioinfoNet/hack-paper.git --quiet --all
 }
 setup_git
 commit_paper_files
