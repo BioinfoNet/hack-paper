@@ -13,7 +13,7 @@ commit_paper_files() {
 }
 
 upload_files() {
-  git push https://kipkurui:${GITHUB_TOKEN}@github.com/BioinfoNet/hack-paper.git --quiet --all
+  git push https://kipkurui:${GITHUB_TOKEN}@github.com/BioinfoNet/hack-paper.git --set-upstream --all
 }
 setup_git
 commit_paper_files
