@@ -1,4 +1,5 @@
 language: bash
+
 env:
   global:
   - PATH=$TRAVIS_BUILD_DIR/usr/bin/:$PATH
