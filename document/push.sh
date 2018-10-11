@@ -3,6 +3,7 @@
 setup_git() {
   git config --global user.email "calebkibet88@gmail.com"
   git config --global user.name "Caleb Kibet"
+  
 }
 
 commit_paper_files() {
@@ -12,7 +13,7 @@ commit_paper_files() {
 }
 
 upload_files() {
-  git remote add origin https://BioinfoNet:${github-token}@github.com/BioinfoNet/hack-paper.git > /dev/null 2>&1
+  git remote add origin https://kipkurui:${github-token}@github.com/BioinfoNet/hack-paper.git > /dev/null 2>&1
   git push --quiet --set-upstream origin master
 }
 setup_git
