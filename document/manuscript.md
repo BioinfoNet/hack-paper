@@ -53,6 +53,6 @@ What is the take-home message from this article? What are the recommendations?
 
 # Acknowledgement
 
-We acknowledge the support from ... and the contribution from .... 
+We acknowledge the support from ... and the contribution from Mozilla Science Lab and KENET.
 
 Use this section to acknowledge funding and resource contributions to the project. 

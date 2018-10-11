@@ -3,7 +3,6 @@
 setup_git() {
   git config --global user.email "calebkibet88@gmail.com"
   git config --global user.name "Caleb Kibet"
-  
 }
 
 commit_paper_files() {
@@ -18,6 +17,7 @@ commit_paper_files() {
 upload_files() {
   git push https://kipkurui:${GITHUB_TOKEN}@github.com/BioinfoNet/hack-paper.git --set-upstream --all
 }
+
 setup_git
 commit_paper_files
 upload_files
