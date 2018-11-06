@@ -10,6 +10,6 @@ before_install:
 - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
 - sudo apt-get install texlive-science texlive-humanities
 script:
-- cd document && make manuscript-biorxiv.pdf
+- cd document && make all
 after_success:
 - bash push.sh
