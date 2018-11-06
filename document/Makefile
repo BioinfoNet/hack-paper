@@ -14,6 +14,7 @@ manuscript-biorxiv.pdf: manuscript-biorxiv.tex manuscript.tex
 	latex manuscript-biorxiv
 	latex manuscript-biorxiv
 	dvipdf manuscript-biorxiv
+	htlatex manuscript-biorxiv.tex
 
 Supplementary-File.pdf: Supplementary-File.md
 	 Rscript -e "rmarkdown::render('Supplementary-File.md', output_format = 'pdf_document')"
