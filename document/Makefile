@@ -1,6 +1,7 @@
 .PHONY: clean all
 
 all:
+	make manuscript.tex
 	make manuscript-biorxiv.pdf
 	make Supplementary-File.pdf
 
