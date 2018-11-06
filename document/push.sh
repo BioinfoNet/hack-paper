@@ -12,6 +12,7 @@ commit_paper_files() {
   git branch my-temporary-work
   git checkout master
   git merge my-temporary-work
+  git branch -d my-temporary-work
 }
 
 upload_files() {
