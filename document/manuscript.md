@@ -23,14 +23,14 @@ This will be a data analysis section. The title of this section will depend on t
 We address questions like:
 - What is the publishing trend by Kenyan researchers
 - Are they publishing open access, and how has this changed over the years?
-- Are Kenyan researchers embracing pre-prints (BioRXiv, AriRXiv, ResearchGate). Who is driving the adoption of pre-prints? Local researchers or foreign collaborators?
+- Are Kenyan researchers embracing pre-prints (BioRXiv, AriRXiv, ResearchGate, F1000Research). Who is driving the adoption of pre-prints? Local researchers or foreign collaborators?
 - What are the collaboration trends? Are Kenyan researcher collaborating locally or internationally? 
 
 # But Publishing Open Access is Expensive {-}
 
-This remains the main barrier to publishing open access, in addition to the obsession with impact factors. However, for early career scientists and students, especially in developing countries, most publishers offer waivers and subsidies. In this section, we explore some of the avenues to publishing open access at low cost. 
+The article processing charge is the main barrier to publishing open access, in addition to the obsession with impact factors. However, for early career scientists and students, especially in developing countries, most publishers offer waivers and subsidies but few are aware. In this section, we explore some of the avenues to publishing open access at low cost. 
 
-To address this problem, we created a resource that can guide ECR and students on where they publish open access, and at low cost. We also provide information on how they can still be open, eg via the green route. 
+To address this problem, we created a resource that can guide ECR and students on where they publish open access, and at low cost. We also provide information on how they can still be open when they publsih in paywalled journals, eg via the green route. 
 
 # Figures {-}
 
