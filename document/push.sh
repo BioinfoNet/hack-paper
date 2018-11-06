@@ -8,6 +8,7 @@ setup_git() {
 commit_paper_files() {
   git add *.pdf
   git add *.tex
+  git add *.html
   git commit --message "Travis build: $TRAVIS_BUILD_NUMBER"
   git branch my-temporary-work
   git checkout master
