@@ -3,9 +3,9 @@
 ## Description 
 
 This repository contains the manuscript entitled:
-[**Open Science in Kenya: Where are we?**](https://github.com/bioinfonet/hack-paper/blob/master/document/manuscript.md). Our aim is to review the intake of open science practices by Kenya Researcher. NB: May expand to EA, if time allows.
+[**Open Science in Kenya: Where are we?**](https://github.com/bioinfonet/hack-paper/blob/master/document/manuscript.md). Our aim is to review the intake of open science practices by Kenya Researcher. NB: May expand to Eat Africa if time allows.
 
-This is an output of OpenScienceKE hackathon held on 30th and 31st August, 2018.
+This is an output of OpenScienceKE hackathon held on 30th and 31st August 2018.
      
      
 ## Commenting and contributing 
@@ -14,7 +14,6 @@ point you would like to raise or discuss.
 
 
 ## Conversion to LaTeX
-
 - **Any modifications to the text should be made to the
   `manuscript.md` file.** This file is then converted to LaTeX using
   `pandoc` and included in the main tex file. 
@@ -22,7 +21,7 @@ point you would like to raise or discuss.
 - **Any modification to the title or authors should be made to
   `manuscript-biorxiv.tex`, following the syntax defined therein**
 
-Then, type
+If working locally, type:
 
 ```
 make manuscript-biorxiv.tex
@@ -35,13 +34,13 @@ make manuscript-biorxiv.tex
 make clean
 ```
 
-### Generating pdf papaper
-we are using Travis CI to generate the LaTex and PDF of the paper and push it automatically on pull request. Create a branch from the master and send a pull request when done with your edits. We will only approve the pull-request on successful Build. 
+### Generating pdf paper
+Each of the above steps is automated as soon as you send a pull request. We are using Travis CI to generate the LaTex and PDF of the paper and push it automatically to the repo on a pull request. Create a branch from the master, edit the `manuscript.md` and send a pull request when done with your edits. The pull request is automatically merged on passing the Travis CI tests.  
 
 ## Contributing
 
-Thank you for your interest. To contribute, have a look at the roadmapo and issues, fork this repo and send us a pull request when done. 
+Thank you for your interest. To contribute, have a look at the roadmap and issues, fork this repo and send us a pull request when done. 
 
 ## Attribution
 
-This paper template is insipred by: https://github.com/ypriverol/github-paper. 
+This paper template is inspired by https://github.com/ypriverol/github-paper. 
