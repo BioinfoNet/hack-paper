@@ -9,6 +9,7 @@ before_install:
 - sudo apt-get install texlive-xetex texlive-latex-recommended texlive-latex-extra
 - sudo apt-get install texlive-fonts-recommended texlive-fonts-extra
 - sudo apt-get install texlive-science texlive-humanities
+- sudo apt-get install tex4ht
 script:
 - cd document && make manuscript.tex && make manuscript-biorxiv.pdf
 after_success:
