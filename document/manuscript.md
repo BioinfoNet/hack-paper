@@ -1,4 +1,5 @@
 # Introduction {-}
+Our Core message is to present a clear outlook on the adoption of Open Science practice by African-based scientists, starting with Kenya. 
 
 Add an introduction of the Open Science. To cite an article, use \cite{Schlegel2016}. All the bibliographies should be added to `library.bib` in the BibTeX format. See the example in `library.bib`. 
 
@@ -50,6 +51,9 @@ What do the results mean? How does your results fit to the current literature? H
 
 # Conclusions {-}
 What is the take-home message from this article? What are the recommendations? 
+- The need for a framework to guide the adoption of open science practices. Take note of the bariers and provide recommendations. 
+- The need for low-cost publishing 
+- The need for policies on open science that can be implemented by various insituitions. For example, we can provide a template that can be adopted by most instituitions
 
 # Acknowledgement
 
