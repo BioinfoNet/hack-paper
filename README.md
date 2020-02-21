@@ -3,9 +3,9 @@
 ## Description 
 
 This repository contains the manuscript entitled:
-[**Open Science in Kenya: Where are we?**](https://github.com/bioinfonet/hack-paper/blob/master/document/manuscript.md). Our aim is to review the intake of open science practices by Kenya Researcher. NB: May expand to Eat Africa if time allows.
+[**Open Science in Kenya: Where are we?**](https://github.com/bioinfonet/hack-paper/blob/master/document/manuscript.md). We aim to review the intake of open science practices by Kenya Researcher. NB: May expand to East Africa if time allows.
 
-This is an output of OpenScienceKE hackathon held on 30th and 31st August 2018.
+This paper presents the output of OpenScienceKE hackathon held on 30th and 31st August 2018.
      
      
 ## Commenting and contributing 
