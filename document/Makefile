@@ -14,7 +14,7 @@ manuscript-biorxiv.pdf: manuscript-biorxiv.tex manuscript.tex
 	bibtex manuscript-biorxiv
 	latex manuscript-biorxiv
 	latex manuscript-biorxiv
-	dvipdf manuscript-biorxiv
+	pdflatex manuscript-biorxiv
 	htlatex manuscript-biorxiv.tex
 
 Supplementary-File.pdf: Supplementary-File.md
