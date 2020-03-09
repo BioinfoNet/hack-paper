@@ -1,4 +1,4 @@
-.PHONY: clean all manuscript.tex manuscript-biorxiv.pdf Supplementary-File.pdf
+.PHONY: clean all
 
 all:
 	make manuscript.tex
