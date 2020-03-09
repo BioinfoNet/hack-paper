@@ -4,6 +4,7 @@ all:
 	make manuscript.tex
 	make manuscript-biorxiv.pdf
 	make Supplementary-File.pdf
+	make clean
 
 manuscript.tex: manuscript.md
 	pandoc manuscript.md -o manuscript.tex
@@ -14,7 +15,7 @@ manuscript-biorxiv.pdf: manuscript-biorxiv.tex manuscript.tex
 	bibtex manuscript-biorxiv
 	latex manuscript-biorxiv
 	latex manuscript-biorxiv
-	dvipdf manuscript-biorxiv
+	pdflatex manuscript-biorxiv
 	htlatex manuscript-biorxiv.tex
 
 Supplementary-File.pdf: Supplementary-File.md
