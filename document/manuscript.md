@@ -63,6 +63,7 @@ The title here should indicate whether _Kenyan researchers are embracing open sc
 2. Pre-prints. **_more work needed here to find out whether they have embraced preprints and if so, who is driving the adoption?_**
 3. Open data and Code. **_[This is yet to be completed](https://github.com/BioinfoNet/Data-mining/issues/11). We need to find out whether Kenyan authors are making the data and code available and accessible, and whether they are adhering to the FAIR principles_**
 4. Collaboration trends. Are Kenyan authors collaborating from within or without? This milestone is still pending.
+5 What else?
 
 # But Publishing Open Access is Expensive {-}
 
