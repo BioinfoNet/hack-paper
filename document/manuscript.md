@@ -9,7 +9,7 @@ Add an introduction of the Open Science. To cite an article, use \cite{Schlegel2
 
 Since this will more or less be like a review article, we will need to identify the various subsections based on the topics we need to cover in the review. See [this article](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) for some tips \cite{Mensh2017}.
 
-**Placeholder Text for the Background**
+**Placeholder Text for the Background** WILL UPDATE TO INTRODUCTION
 
 Open, collaborative and reproducible research – Open Science – has a great potential for advancing science. However, the training in our local universities does not equip students with the tools to practice open science. However, to work in the open and collaborate, your collaborators should be equipped to use the tools that you use. The main barrier to working open, therefore, is the lack of awareness of the collaboration tools and the skills required to utilize these tools. Therefore, to fill the gap through an open science community, funded by a Mozilla Mini-grant – OpenScienceKE, we are promoting open science among bioinformatics students and researchers in the Nairobi area by training using this model: sensitize, train, hack and collaborate. This model first sensitizes on open science practices through seminars, trains on open science tools through workshops, facilitates hands-on application of the tools through hackathons, and finally fosters a community of open science enthusiasts through meetups.
 
