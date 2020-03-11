@@ -46,7 +46,7 @@ The subsections will be based on the findings about the status of open science i
   - Others?
 
 
-# DataMining Section {-}
+# Data Mining Section {-}
 
 This will be a data analysis section. The title of this section will depend on the results of your analysis. For example, if Kenyan researchers are not publishing open access, we will need to understand why that is the case. The solution may lie in the cost of publishing, and that is how the resource created by Open Access options team is useful.
 
@@ -60,16 +60,16 @@ We address questions like:
 The title here should indicate whether _Kenyan researchers are embracing open science practices_ as per the findings of the Data Mining team. This section's discussion may therefore focus on supporting this claim based on:
 
 1. The publishing trend of Kenyan researchers. The trend indicates that open access publishing is popular. The popular journals where Kenyan researcher publish are open access.
-2. Pre-prints. **_more work needed here to find out whether they have embraced preprints and if so, who is driving the adoption?_**
+2. Pre-prints. Pre-prints are yet to be widely adopted by Kenyan scientists and foreign collaborators drive the adoption of pre-prints among Kenyan authors
 3. Open data and Code. **_[This is yet to be completed](https://github.com/BioinfoNet/Data-mining/issues/11). We need to find out whether Kenyan authors are making the data and code available and accessible, and whether they are adhering to the FAIR principles_**
-4. Collaboration trends. Are Kenyan authors collaborating from within or without? This milestone is still pending.
+4. Collaboration trends. Are Kenyan authors collaborating from within or without? (based on pre-prints from bioRXiv, we see that Kenyan authors are mostly collaborating internationally. Is this the case from the rest of literature obtained during data mining?)
 5 What else?
 
 # But Publishing Open Access is Expensive {-}
 
 The article processing charge is the main barrier to publishing open access, in addition to the obsession with impact factors. However, for early career scientists and students, especially in developing countries, most publishers offer waivers and subsidies but few are aware. In this section, we explore some of the avenues to publishing open access at low cost.
 
-To address this problem, we created a resource that can guide ECR and students on where they publish open access, and at low cost. We also provide information on how they can still be open when they publsih in paywalled journals, eg via the green route.
+To address this problem, we created a resource that can guide ECR and students on where they publish open access, and at low cost. We also provide information on how they can still be open when they publish in paywalled journals, eg via the green route.
 
 ### Proposed content of Section
  - Low cost open access publishing is available.
@@ -94,9 +94,9 @@ What do the results mean? How does your results fit to the current literature? H
 
 # Conclusions {-}
 What is the take-home message from this article? What are the recommendations?
-- The need for a framework to guide the adoption of open science practices. Take note of the bariers and provide recommendations.
+- The need for a framework to guide the adoption of open science practices. Take note of the barriers and provide recommendations.
 - The need for low-cost publishing
-- The need for policies on open science that can be implemented by various insituitions. For example, we can provide a template that can be adopted by most instituitions
+- The need for policies on open science that can be implemented by various institutions. For example, we can provide a template that can be adopted by most institutions
 
 # Acknowledgement
 
