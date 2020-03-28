@@ -76,6 +76,15 @@ To address this problem, we created a resource that can guide ECR and students o
 
 Here our discussion will indicate that there are publishers offering waivers and subsidies for developing countries (low income and lower middle income countries). Waiver is either Full or 50% of the APCs. Sometimes, waivers are offered on a case-by-case basis. The resource created will create awareness on where to publish at low cost in an open access way.
 
+### Draft text for the section
+Access to literature is of paramount importance in the process of scientific inquiry. The free flow of ideas and information are crucial to addressing economic, environmental and social issues facing developing countries especially in Africa. However, contrary to concerted research efforts to foster development, an assessment of Africa's research output between 1999 - 2008 indicated that Africa lagged behind in it's research output when compared to the rest of the world \cite{adams2010;raju2012}. Poor accessibility of scientific publications has been suggested as one of the reasons for the low research output from Africa \cite{tise2011;raju2012}.
+
+
+
+
+
+
+
 # Figures {-}
 
 You can add the figures as follows:
