@@ -4,6 +4,8 @@
 
 Remember it is a sprint. Take note and set aside any task that does not involve writing, especially if it takes more than 10 minutes. 
 
+See [this paper](https://link.springer.com/article/10.1007/s40037-018-0442-9) on the use of writing Sprint in academic research and writing. 
+
 #### 3:00 - 3:15: Introduction and summary of tasks via Zoom
 - Introducing the approach
 - Sharing the tasks
